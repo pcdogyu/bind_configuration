@@ -1,0 +1,8 @@
+$ttl 38400
+0/16.0.168.192.in-addr.arpa.	IN	SOA	dns.caelab.top. hao\.yu01.sap.com. (
+			1605968103
+			10800
+			3600
+			604800
+			38400 )
+0/16.0.168.192.in-addr.arpa.	IN	NS	dns.caelab.top.

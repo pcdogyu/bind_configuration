@@ -1,0 +1,25 @@
+$ttl 300
+caelab.top.	IN	SOA	ns1.caelab.top. hao\.yu01.sap.com. (
+			1605893458
+			300
+			300
+			300
+			300 )
+caelab.top.	300	IN	NS	ns1.caelab.top.
+caelab.top.	300	IN	NS	ns2.caelab.top.
+ns1.caelab.top.	IN	A	173.82.151.187
+ns2.caelab.top.	IN	A	80.251.214.31
+www.caelab.top.	300	IN	A	192.168.1.1
+web.caelab.top.	IN	CNAME	www
+mx1.caelab.top.	IN	MX	10 mx1.caelab.top.
+mx2.caelab.top.	IN	MX	20 mx2.caelab.top.
+elb.caelab.top.	IN	A	10.1.0.1
+elb.caelab.top.	IN	A	10.1.0.2
+elb.caelab.top.	IN	A	10.1.0.3
+mail.caelab.top.	IN	A	192.168.1.5
+pop3.caelab.top.	IN	A	192.168.1.6
+imap.caelab.top.	IN	A	192.168.1.7
+dns.caelab.top.	300	IN	A	173.82.151.187
+old.caelab.top.	IN	A	192.168.1.99
+mx1.caelab.top.	IN	A	192.168.1.200
+mx2.caelab.top.	IN	A	192.168.1.201
