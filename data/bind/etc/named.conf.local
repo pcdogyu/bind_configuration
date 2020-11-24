@@ -10,10 +10,6 @@ zone "caelab.top" {
 	type master;
 	file "/var/lib/bind/caelab.top.hosts";
 	};
-zone "0/8.0.0.172.in-addr.arpa" {
-	type master;
-	file "/var/lib/bind/172.0.0.0_8.rev";
-	};
 zone "0/16.0.168.192.in-addr.arpa" {
 	type master;
 	file "/var/lib/bind/192.168.0.0_16.rev";
